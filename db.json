@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode",
+      "name": "sam",
+      "email": "samreen@stratapps.com",
+      "city": "wgl"
+    },
+    {
+      "id": "2",
+      "name": "sam",
+      "email": "sam@gmail.com",
+      "city": "weer"
+    },
+    {
+      "id": "45",
+      "name": "sert",
+      "email": "ssert@gmail.com",
+      "city": "we"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
