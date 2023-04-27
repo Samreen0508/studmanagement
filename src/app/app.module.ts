@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { StudentComponent } from './student/student.component';
 import {ReactiveFormsModule,FormsModule,} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { ConditionComponent } from './condition/condition.component';
 @NgModule({
   declarations: [
     AppComponent,
-    StudentComponent
+    StudentComponent,
+    ConditionComponent
   ],
   imports: [
     BrowserModule,

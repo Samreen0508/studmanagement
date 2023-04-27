@@ -1,0 +1,29 @@
+
+<div *ngIf="!name; then sample; else sam">
+    <p>{{name}}</p>
+</div>
+
+<ng-template #sample>
+thanq
+</ng-template>
+
+<ng-template #sam>
+    sorry
+    </ng-template>
+    <div *ngFor="let col of colors">
+        <p>{{col}}</p>
+    </div>
+
+   <div>
+       sorry for the inconvinience 
+    </div>
+
+    <div *ngIf="!sam; then sam ">
+        congratulations 
+    </div>
+    
+    <ng-template #sam>
+    cordially invited
+    </ng-template> ------------------------------------------>
+   
+    
